@@ -1,7 +1,9 @@
-#ifndef VECTOR_2_LIB
+#ifndef VECTOR_LIB
 
-#define VECTOR_2_LIB
+#define VECTOR_LIB
 #include <stddef.h>
+
+int vectorFun();
 
 typedef enum VectorSize {
     TOW = 2,
